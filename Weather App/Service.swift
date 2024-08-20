@@ -16,7 +16,7 @@ struct City {
 class Service {
     
     private let baseURL: String = "https://api.openweathermap.org/data/3.0/onecall"
-    private let apiKey: String = "d8e30050641d9e832721dbfaadf935ad"
+    private let apiKey: String = ""
     private let urlExclude: String = "exclude=minutely,alerts"
     private let urlUnits: String = "units=metric"
     private let session = URLSession.shared
